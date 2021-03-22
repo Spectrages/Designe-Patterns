@@ -167,7 +167,8 @@ void ChoisePizza()
             fpz->info();
             break;
         default:
-            assert(false);
+            cout << "Error\n";
+            break;
         }
         cout << "\nContinue? (y/n): ";
         cin >> ch;
